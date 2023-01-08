@@ -44,9 +44,3 @@ function response_check(){
 console.log("Hi.. XHR function response_check()")
 //response_check()
 
-//request.readystate ?
-// VM31:1 Uncaught SyntaxError: Unexpected end of JSON input
-//     at JSON.parse (<anonymous>)
-//     at response_check (xhr.js:10:19)
-//     at xhr.js:14:1 
-// - this ero happens when data is not fully loaded
